@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* ===================================================================
+ style info : ヘッダーやフッターなどサイト内共通
+=================================================================== */
+
+/*----------------------------------------------------
+	header#globalHeader
+----------------------------------------------------*/
+header#globalHeader {
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+/* グローバルナビゲーション
+----------------------------------------------------*/
+header#globalHeader nav {
+}
+
+header#globalHeader nav ul {
+	/zoom: 1;
+}
+
+header#globalHeader nav ul:after {
+	content: "."; display: block; visibility: hidden; height: 0.1px; font-size: 0.1em; line-height: 0; clear: both;
+}
+
+header#globalHeader nav ul li {
+	float: left;
+}
+
+/* サイト内検索
+----------------------------------------------------*/
+header#globalHeader form {
+	clear: both;
+}
+
+
+
+/*----------------------------------------------------
+	footer#globalFooter
+----------------------------------------------------*/
+footer#globalFooter {
+	clear: both;
+	background: #fff;
+}
+
+footer#globalFooter ul {
+	list-style: none;
+}
+
+footer#globalFooter ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+/* copyright
+----------------------------------------------------*/
+footer#globalFooter p.copyright {
+	text-align: center;
+}
+
+footer#globalFooter p.copyright small {
+}
+

@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	text-align:center;
+	margin:30px auto;
+}
+
+section {
+	width:400px;
+	margin:0 auto;
+}
+
+#canvasArea {
+	position:relative;
+}
+
+#ready {
+	position:absolute;
+	top:70px;
+	left:50%;
+	margin-left:-172px;
+}
+
+.gameOver {
+	position:absolute;
+	top:70px;
+	left:50%;
+	margin-left:-211px;
+}
+
+#QRCode {
+	width:395px;
+	margin:0 auto;
+}
+
+
+#tetris {
+	width:300px;
+	margin:0 auto;
+	background:#202020;
+}
+
+dl {
+	width:300px;
+	margin:50px auto;
+	overflow:hidden;
+}
+
+dl dt {
+	float:left;
+	font-weight:bold;
+	padding:0.5em;
+	background:#C30;
+	color:#fff;
+}
+
+dl dd {
+	margin-left:5em;
+	padding:0.5em;
+}
