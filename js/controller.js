@@ -4,7 +4,7 @@
 var ID = location.hash;
 
 //websocket
-var domain = "weblabox.com";
+var domain = "remote.renoat.net";
 var port = 8989;
 var webSocket = io.connect('http://' + domain + ':' + port);
 

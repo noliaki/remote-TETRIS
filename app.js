@@ -1,8 +1,6 @@
-var app = require('http').createServer(handler),
-io = require('socket.io').listen(app),
-fs = require('fs');
-  
-app.listen(8989);
+var 
+  io = require('socket.io').listen(8989),
+  fs = require('fs');
   
 io.enable('browser client minification');  // send minified client
 io.enable('browser client etag');          // apply etag caching logic based on version number
