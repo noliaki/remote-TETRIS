@@ -2,10 +2,10 @@ var
   io = require('socket.io').listen(8989),
   fs = require('fs');
   
-io.enable('browser client minification');  // send minified client
-io.enable('browser client etag');          // apply etag caching logic based on version number
-io.enable('browser client gzip');          // gzip the file
-io.set('log level', 1);                    // reduce logging
+// io.enable('browser client minification');  // send minified client
+// io.enable('browser client etag');          // apply etag caching logic based on version number
+// io.enable('browser client gzip');          // gzip the file
+// io.set('log level', 1);                    // reduce logging
 
   
 function handler (req, res) {
